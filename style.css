@@ -1,9 +1,31 @@
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
+body {
+  background: url("images/pattern-background-desktop.svg") no-repeat;
 }
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.card-body {
+  display: grid;
+  align-items: center;
+}
+h3 {
+  text-align: center;
+}
+.card {
+  max-width: 300px;
+}
+.card-text {
+  padding: 20px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution {
+  margin-top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
