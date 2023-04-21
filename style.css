@@ -48,6 +48,15 @@ h3 {
 .buttons{
    text-align: center;
 }
+.btn-1{
+    color: white;
+    padding: 5px 50px;
+    border: none;
+    background-color:hsl(245, 75%, 52%);
+}
+.btn{
+    border: none;
+}
 
 .attribution {
   margin-top: 50px;
@@ -56,4 +65,11 @@ h3 {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+    .container1 {
+        background: url("images/pattern-background-mobile.svg") no-repeat;
+      }
+
 }
