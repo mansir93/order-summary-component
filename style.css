@@ -1,10 +1,15 @@
-body {
-  background: url("images/pattern-background-desktop.svg") no-repeat;
+
+*{
+    margin: 0;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+ body {
+       font-family: "red" sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+.container1{
+    display: flex;
+        justify-content: center;
+    background: url("images/pattern-background-desktop.svg") no-repeat;
 }
 .card-body {
   display: grid;
@@ -14,25 +19,28 @@ h3 {
   text-align: center;
 }
 .card {
+    margin-top: 50px;
   max-width: 300px;
 }
 .card-text {
-    display: flex;
+    margin: 0;
   padding: 20px;
   font-size: 11px;
   text-align: center;
 }
-.price-card{
-    align-items: center;
-        background-color: aqua;
+.price-card {
+  display: flex;
+  padding: 5px;
+  align-items: center;
+  background-color:   hsl(225, 100%, 98%);
 }
-.music-icon{
-    margin:15px;
-
-} 
-.price{
+.plan {
+  padding: 10px;
 }
-.change-btn{
+.price {
+}
+.change-btn {
+  margin: auto;
 }
 
 .attribution {
