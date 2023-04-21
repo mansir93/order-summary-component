@@ -22,8 +22,8 @@ h3 {
   max-width: 300px;
   border-radius: 10px;
 }
-.card-img-top{
-    border-radius: 10px 10px 0 0;
+.card-img-top {
+  border-radius: 10px 10px 0 0;
 }
 .card-text {
   margin: 0;
@@ -33,6 +33,7 @@ h3 {
 }
 .price-card {
   display: flex;
+  margin: 10px;
   padding: 5px;
   align-items: center;
   background-color: hsl(225, 100%, 98%);
@@ -40,22 +41,22 @@ h3 {
 .plan {
   padding: 10px;
 }
-.price{
+.price {
 }
 .change-btn {
   margin: auto;
 }
-.buttons{
-   text-align: center;
+.buttons {
+  text-align: center;
 }
-.btn-1{
-    color: white;
-    padding: 5px 50px;
-    border: none;
-    background-color:hsl(245, 75%, 52%);
+.btn-1 {
+  color: white;
+  padding: 5px 50px;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
 }
-.btn{
-    border: none;
+.btn {
+  border: none;
 }
 
 .attribution {
@@ -68,8 +69,7 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
-    .container1 {
-        background: url("images/pattern-background-mobile.svg") no-repeat;
-      }
-
+  .container1 {
+    background: url("images/pattern-background-mobile.svg") no-repeat;
+  }
 }
