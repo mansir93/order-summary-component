@@ -1,15 +1,14 @@
-
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
- body {
-       font-family: "red" sans-serif;
+body {
+  font-family: "red" sans-serif;
   background-color: hsl(225, 100%, 94%);
 }
-.container1{
-    display: flex;
-        justify-content: center;
-    background: url("images/pattern-background-desktop.svg") no-repeat;
+.container1 {
+  display: flex;
+  justify-content: center;
+  background: url("images/pattern-background-desktop.svg") no-repeat;
 }
 .card-body {
   display: grid;
@@ -19,11 +18,15 @@ h3 {
   text-align: center;
 }
 .card {
-    margin-top: 50px;
+  margin-top: 50px;
   max-width: 300px;
+  border-radius: 10px;
+}
+.card-img-top{
+    border-radius: 10px 10px 0 0;
 }
 .card-text {
-    margin: 0;
+  margin: 0;
   padding: 20px;
   font-size: 11px;
   text-align: center;
@@ -32,15 +35,18 @@ h3 {
   display: flex;
   padding: 5px;
   align-items: center;
-  background-color:   hsl(225, 100%, 98%);
+  background-color: hsl(225, 100%, 98%);
 }
 .plan {
   padding: 10px;
 }
-.price {
+.price{
 }
 .change-btn {
   margin: auto;
+}
+.buttons{
+   text-align: center;
 }
 
 .attribution {
